@@ -1,0 +1,7 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=sysdba.cu6ggptbwlbt.us-west-2.rds.amazonaws.com;dbname=sysdba'
+      username: root
+      password: chow20214
